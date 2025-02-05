@@ -8,3 +8,57 @@ section{
     margin: 25px auto;
     border: 10px solid blue;
 }
+ 
+section:first-of-type{
+    width: 80;
+    height: 400px;
+    margin: 25px auto;
+    background-image: linear-gradient(90deg, green 36%, white 30%, white 70%, green 70%, green 30%);
+}
+
+section:nth-of-type(2){
+    width: 80;
+    height: 400px;
+    margin: 25px auto;
+    background-color: white;
+    background-image: radial-gradient(circle, crimson 20%, white 20%, white 100%);
+}
+
+section:nth-of-type(3){
+    width: 80%;
+    height: 400px;
+    margin:25px auto;
+    background-image: linear-gradient(180deg, red 25%, white 25%, white 30%, blue 30%, blue 60%, white 65%, green 65%, green 100%);
+    border-radius: 50px;
+}
+section:nth-of-type(4){
+    width: 80%;
+    height: 400px;
+    margin: 25px auto;
+    background-color: white;
+    background-image: linear-gradient(green 30%, yellow 30%, yellow 60%, blue 60%, blue 50%); 
+}
+
+section:nth-of-type(5){
+    width: 80%;
+    height: 400px;
+    margin: 25px auto;
+    background-color: white;
+    background-image: linear-gradient(90deg, blue 30%, white 30%, white 70%, red 70%, red 30%);
+}
+
+section:nth-of-type(6){
+    width: 80%;
+    height: 400px;
+    margin: 25px auto;
+    background-color: white;
+    background-image: linear-gradient(90deg, black 30%, yellow 30%, yellow 70%, red 70%, red 30%);
+}
+
+section:nth-of-type(7){
+    width: 80%;
+    height: 400px;
+    margin: 25px auto;
+    background-color: white;
+    background-image: linear-gradient(180deg, black 30%, red 30%, red 70%, yellow 70%, yellow 30%);
+}
